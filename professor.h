@@ -1,0 +1,14 @@
+//
+// Created by 10 on 12/12/2022.
+//
+
+#ifndef LEARNING_MANAGEMENT_SYSTEM_PROFESSOR_H
+#define LEARNING_MANAGEMENT_SYSTEM_PROFESSOR_H
+
+
+class professor {
+
+};
+
+
+#endif //LEARNING_MANAGEMENT_SYSTEM_PROFESSOR_H
