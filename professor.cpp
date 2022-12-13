@@ -5,39 +5,51 @@
 #include "professor.h"
 #include <iostream>
 using namespace std;
-void professor::setName(const string &name) {
-        Name = name;
-    }
 
-void professor::setCode(const string &code) {
-    Code=code;
-
+void professor::setEmail(const string &email) {
+    Email = email;
 }
 
-void professor::setLectureHall(const string &lectureHall) {
-        LectureHall = lectureHall;
-
+void professor::setTitle(const string &title) {
+    professor::Title = title;
 }
 
-void professor::setTime(const string &time) {
-        Time = time;
-
+void professor::setFirstName(const string &firstName) {
+    FirstName = firstName;
 }
 
-const string &professor::getName() {
-
-        return Name;
-
+void professor::setLastName(const string &lastName) {
+    LastName = lastName;
 }
 
-const string &professor::getCode() {
-    return Code;
+void professor::setAge(const string &age) {
+    Age = age;
 }
 
-const string &professor::getLectureHall() {
-    return LectureHall;
+void professor::setMobile(const string &mobile) {
+    Mobile = mobile;
 }
 
-const string &professor::getTime() {
-    return Time;
+const string &professor::getFirstName() const {
+    return FirstName;
+}
+
+const string &professor::getLastName() const {
+    return LastName;
+}
+
+const string &professor::getAge() const {
+    return Age;
+}
+
+const string &professor::getMobile() const {
+    return Mobile;
+}
+
+const string &professor::getEmail() const {
+    return Email;
+}
+
+const string &professor::getTitle() const {
+    return Title;
 }

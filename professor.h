@@ -8,28 +8,39 @@
 using namespace std;
 
 class professor { private:
-    string Name;
-    string Code;
-    string LectureHall;
-    string Time;
+    string FirstName;
+    string LastName;
+    string Age;
+    string Mobile;
+    string Email;
+    string Title;
 public:
     // Setter
-    void setName(const string &name);
 
+    void setFirstName(const string &firstName);
 
-    void setCode(const string &code);
+    void setLastName(const string &lastName);
 
-    void setLectureHall(const string &lectureHall) ;
+    void setAge(const string &age);
 
-    void setTime(const string &time) ;
+    void setEmail(const string &email);
+
+    void setTitle(const string &title);
+
+    void setMobile(const string &mobile);
 
     // Getter
-    const string &getName() ;
+    const string &getFirstName() const;
 
-    const string &getCode() ;
-    const string &getLectureHall();
+    const string &getLastName() const;
 
-    const string &getTime() ;
+    const string &getAge() const;
+
+    const string &getMobile() const;
+
+    const string &getEmail() const;
+
+    const string &getTitle() const;
 };
 
 
