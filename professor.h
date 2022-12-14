@@ -5,6 +5,8 @@
 #ifndef LEARNING_MANAGEMENT_SYSTEM_PROFESSOR_H
 #define LEARNING_MANAGEMENT_SYSTEM_PROFESSOR_H
 #include <iostream>
+#include "class.h"
+#include <vector>
 using namespace std;
 
 class professor { private:
@@ -14,6 +16,7 @@ class professor { private:
     string Mobile;
     string Email;
     string Title;
+// vector<class> courses;
 public:
     // Setter
 
@@ -29,6 +32,8 @@ public:
 
     void setMobile(const string &mobile);
 
+
+
     // Getter
     const string &getFirstName() const;
 
@@ -41,6 +46,9 @@ public:
     const string &getEmail() const;
 
     const string &getTitle() const;
+    //other functions
+    void DisplayInfo();
+    //vector<class> addCourse(class);
 };
 
 

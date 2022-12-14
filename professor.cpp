@@ -53,3 +53,16 @@ const string &professor::getEmail() const {
 const string &professor::getTitle() const {
     return Title;
 }
+
+void professor::DisplayInfo() { cout<<"Name:"<<Title<<" : "<<FirstName<<' '<<LastName<<endl;
+    cout<<"Contact:"<<endl<<"Email:"<<Email<<endl<<"Mobile:"<<Mobile<<endl;
+    cout<<"Age:"<<Age;
+
+
+}
+
+//vector<class> professor::addCourse(class x) {
+  //  vector<class> courses;
+   // vector.pushback(x);
+//}
+
