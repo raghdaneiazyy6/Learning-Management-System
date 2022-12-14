@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/user/Documents/GitHub/Learning-Management-System/build",
+  "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe -g -std=gnu++14 -o CMakeFiles\\Learning_Management_System.dir\\main.cpp.obj -c C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\main.cpp",
+  "file": "C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\main.cpp"
+},
+{
+  "directory": "C:/Users/user/Documents/GitHub/Learning-Management-System/build",
+  "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe -g -std=gnu++14 -o CMakeFiles\\Learning_Management_System.dir\\student.cpp.obj -c C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\student.cpp",
+  "file": "C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\student.cpp"
+},
+{
+  "directory": "C:/Users/user/Documents/GitHub/Learning-Management-System/build",
+  "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe -g -std=gnu++14 -o CMakeFiles\\Learning_Management_System.dir\\professor.cpp.obj -c C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\professor.cpp",
+  "file": "C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\professor.cpp"
+},
+{
+  "directory": "C:/Users/user/Documents/GitHub/Learning-Management-System/build",
+  "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe -g -std=gnu++14 -o CMakeFiles\\Learning_Management_System.dir\\class.cpp.obj -c C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\class.cpp",
+  "file": "C:\\Users\\user\\Documents\\GitHub\\Learning-Management-System\\class.cpp"
+}
+]
