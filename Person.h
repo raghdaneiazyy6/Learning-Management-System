@@ -1,0 +1,14 @@
+//
+// Created by Mourad on 12/19/2022.
+//
+
+#ifndef LEARNING_MANAGEMENT_SYSTEM_PERSON_H
+#define LEARNING_MANAGEMENT_SYSTEM_PERSON_H
+
+
+class person {
+
+};
+
+
+#endif //LEARNING_MANAGEMENT_SYSTEM_PERSON_H
